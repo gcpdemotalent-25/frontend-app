@@ -1,0 +1,10 @@
+# Dépendances locales, elles seront installées proprement dans le conteneur
+node_modules
+
+# Dossier de build local, il sera généré proprement dans le conteneur
+build
+
+# Fichiers de log et d'environnement
+npm-debug.log
+.env*
+.DS_Store
